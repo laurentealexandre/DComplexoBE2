@@ -1,0 +1,35 @@
+{
+  "name": "desafiobackend1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo\"Error: no teste especified\" && exit 1",
+    "debug": "SET DEBUG=desafiobackend1:* & npm start",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "nodemon": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurentealexandre/desafioBackend1.git"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.9.3",
+    "node-cache": "^5.1.2",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^3.1.0"
+  }
+}
